@@ -1,0 +1,87 @@
+# Grimoire TUI config.
+#
+# Saved changes show up right away, no restart needed. Delete any line to get
+# its default back; `grimoire-tui --default-config` prints this whole file.
+
+# grimoire, paper or terminal, or the name of a file in themes/ next to this
+# one (without .toml). terminal uses your terminal's own colors.
+theme = "grimoire"
+
+[ui]
+# Border style: plain, rounded, double or thick.
+borders = "rounded"
+# The details pane next to Installed and Browse. It hides itself when the
+# terminal is too narrow for it.
+details = true
+# State marks in lists. Use "ascii" if your font lacks the unicode ones.
+icons = "unicode"
+# Browse layout: list or cards.
+browse_view = "list"
+
+[images]
+# How thumbnails are drawn: auto, kitty, sixel, iterm2, halfblocks or off.
+# auto asks the terminal what it supports and falls back to halfblocks.
+# Thumbnails come from GameBanana and are cached in
+# ~/.cache/grimoire-tui/thumbnails.
+protocol = "auto"
+
+# Override single colors of the theme. Names: bg, fg, muted, faint, accent,
+# accent_fg, surface, selection, border, ok, warn, error. Values: "#rrggbb",
+# an ANSI name like "red" or "lightblue", a 0-255 index, or "reset" for the
+# terminal's own color.
+[colors]
+# accent = "#8b5cf6"
+
+# One key or a list of keys per action. Modifiers: ctrl+, alt+, shift+.
+# Named keys: enter, esc, tab, backtab, space, backspace, delete, insert,
+# up, down, left, right, home, end, pageup, pagedown, f1 to f12.
+# An uppercase letter means shift. "" unbinds an action.
+[keys]
+quit = ["q", "ctrl+c"]
+help = "?"
+next_tab = "tab"
+prev_tab = "backtab"
+installed_tab = "1"
+browse_tab = "2"
+settings_tab = "3"
+
+# Lists and popups
+up = ["k", "up"]
+down = ["j", "down"]
+page_up = ["ctrl+u", "pageup"]
+page_down = ["ctrl+d", "pagedown"]
+top = "home"
+bottom = "end"
+confirm = "enter"
+cancel = "esc"
+search = "/"
+open_page = "o"
+refresh = "r"
+
+# Installed
+toggle = ["space", "enter"]
+grab = "m"
+move_up = "K"
+move_down = "J"
+variants = "v"
+global = "g"
+delete = "d"
+show = "f"
+open_folder = "O"
+repair = "R"
+fix_gameinfo = "F"
+
+# Browse
+details = "enter"
+install = "i"
+sort = "s"
+category = "c"
+clear = "x"
+view = "v"
+left = ["h", "left"]
+right = ["l", "right"]
+
+# Settings
+change = ["enter", "space"]
+detect = "d"
+edit_config = "e"

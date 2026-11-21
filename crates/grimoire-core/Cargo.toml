@@ -1,0 +1,19 @@
+[package]
+name = "grimoire-core"
+description = "Mod library, game layout and metadata logic for Grimoire. No UI."
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.86"
+license = "MIT"
+
+[dependencies]
+dirs = "6"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+thiserror = "2"
+
+[dev-dependencies]
+tempfile = "3"
+
+[lints]
+workspace = true

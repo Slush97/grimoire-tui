@@ -1,0 +1,13 @@
+# Your terminal's own colors: no background, ANSI colors for the rest.
+bg = "reset"
+fg = "reset"
+muted = "gray"
+faint = "darkgray"
+accent = "yellow"
+accent_fg = "black"
+surface = "reset"
+selection = "darkgray"
+border = "darkgray"
+ok = "green"
+warn = "yellow"
+error = "red"

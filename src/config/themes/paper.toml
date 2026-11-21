@@ -1,0 +1,13 @@
+# Light sepia, from vpkmerge's paper palette.
+bg = "#faf6e9"
+fg = "#1c1814"
+muted = "#5d513d"
+faint = "#9d8a63"
+accent = "#a05a2b"
+accent_fg = "#faf6e9"
+surface = "#f1e8d5"
+selection = "#e8dcc1"
+border = "#d4c4a0"
+ok = "#4d7c0f"
+warn = "#b45309"
+error = "#b91c1c"

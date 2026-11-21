@@ -1,0 +1,13 @@
+# Grimoire's own dark palette, the one the desktop client uses.
+bg = "#0f0f0f"
+fg = "#f4f4f5"
+muted = "#a1a1aa"
+faint = "#5b5b63"
+accent = "#f97316"
+accent_fg = "#0f0f0f"
+surface = "#1a1a1a"
+selection = "#2a2a2a"
+border = "#2d2d2d"
+ok = "#4ade80"
+warn = "#facc15"
+error = "#f87171"
